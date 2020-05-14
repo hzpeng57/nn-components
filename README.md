@@ -8,18 +8,18 @@
 
 ## 组件
 
-###1、 Message
+### 1、 Message
 属性名 | 作用 | 是否可为空 | 类型 | 默认值
 -|-|-|-|-
 `isShow` | 是否显示 | 是 | `Boolean` |`false`
 `content` | 显示内容 | 是 | `String` | ''
 
-###2、Loading
+### 2、Loading
 属性名 | 作用 | 是否可为空 | 类型 | 默认值
 -|-|-|-|-
 `isShow` | 是否显示 | 是 | `Boolean` | `true`
 
-###3、 Modal
+### 3、 Modal
 属性名 | 作用 | 是否可为空 | 类型 |默认值
 -|-|-|-|-
 `isShow` | 是否显示 | 是 | `Boolean` |`false`
@@ -33,7 +33,7 @@
 > 当`confirmText`的内容为“去分享”时，会自动替换为分享按钮。
 > `<button class='share-button' open-type='share'>去分享</button>`
 
-###4、Popup
+### 4、Popup
 属性名 | 作用 | 是否可为空| 类型 | 默认值
 -|-|-|-|-
 `isShow` | 是否显示 | 是 | `String` | `false`
