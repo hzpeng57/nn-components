@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "nn-popup": "/components/popup/popup",
+    "nn-modal": "/components/modal/modal",
+    "nn-message": "/components/message/message",
+    "nn-loading": "/components/loading/loading"
+  }
+}

@@ -1,0 +1,25 @@
+/* components/message/message.wxss */
+
+.message-box {
+  width: 100%;
+  height: 50rpx;
+  padding: 0 30rpx;
+}
+
+.message-con {
+  width: 690rpx;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  background-color: #C9011F;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+}
+
+.message-con .icon {
+  margin-right: 20rpx;
+  width: 24rpx;
+  height: 30rpx;
+}

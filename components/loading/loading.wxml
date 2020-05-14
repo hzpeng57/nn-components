@@ -1,0 +1,5 @@
+<!--components/loading/loading.wxml-->
+<view class='loading' wx:if="{{isShow}}">
+  <image class='loading-img' src='../../image/loading.png'></image>
+  <text class='loading-text'>加载中</text>
+</view>

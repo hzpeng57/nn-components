@@ -1,0 +1,23 @@
+<view class="btn-wrap">
+	<button class="mini-btn" type="primary" size="mini" bindtap="changeLoading">Loading</button>
+	<button class="mini-btn" type="primary" size="mini" bindtap="changeModal">Modal</button>
+	<button class="mini-btn" type="primary" size="mini" bindtap="changePopup">Popup</button>
+	<button class="mini-btn" type="primary" size="mini" bindtap="changeMessage">Message</button>
+</view>
+
+<nn-loading isShow="{{ isShowLoading }}"></nn-loading>
+
+<nn-message isShow="{{isShowMessage}}" content="{{messageCon}}"></nn-message>
+
+<nn-popup isShow="{{isShowPopup}}" height="{{700}}">
+	<view class="modal-con">
+		
+	</view>
+</nn-popup>
+
+<nn-modal isShow="{{isShowModal}}" width="{{540}}" confirmText="确定" bindonconfirm="modalConfirm">
+	<view class="modal-con">
+		<view>自定义内容</view>
+		<view>还是内容</view>
+	</view>
+</nn-modal>

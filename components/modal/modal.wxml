@@ -1,0 +1,16 @@
+<!--components/modal/modal.wxml-->
+<view class="page" animation="{{animationData1}}" style="opacity: 0;" hidden='{{isHidden}}' catchtouchmove="touchMove">
+	<view class="content-box" animation="{{animationData2}}" style="width: {{width}}rpx; min-height: {{height}}rpx; transform: translateY(-50%) scale(0); ">
+		<image wx:if="{{isShowClose}}" class="close-btn" src="../../image/modal-close.png" bindtap='hiddenModel'></image>
+		<slot></slot>
+		<view wx:if="{{isFooter}}" class="bottom-btns">
+			<view class="cancel" bindtap='hiddenModel'>{{cancelText}}</view>
+			<view class="confirm" bindtap="clickConfirm" wx:if="{{confirmText !== '去分享'}}">{{confirmText}}</view>
+			<view class="confirm" wx:if="{{confirmText === '去分享'}}">
+				<button class='share-button' open-type='share'>
+					{{confirmText}}
+				</button>
+			</view>
+		</view>
+	</view>
+</view>

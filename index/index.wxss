@@ -1,0 +1,12 @@
+
+.btn-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20rpx 30rpx;
+}
+
+.modal-con {
+  text-align: center;
+  padding: 50rpx 0 0;
+}

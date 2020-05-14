@@ -1,0 +1,7 @@
+<!--components/message/message.wxml-->
+<view class="message-box" wx:if="{{!isHidden}}">
+	<view class="message-con">
+		<image class="icon" src="../../image/top-message-icon.png"></image>
+		<text>{{content}}</text>
+	</view>
+</view>

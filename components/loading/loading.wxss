@@ -1,0 +1,32 @@
+/* components/loading/loading.wxss */
+.loading {
+    width: 100%;
+    height: 78rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 78rpx;
+    font-size: 28rpx;
+    color: #ccc;
+}
+
+.loading-img {
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 10rpx;
+    animation: rotate 1.4s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

@@ -1,0 +1,7 @@
+<!--components/popup/popup.wxml-->
+<view class="page" animation="{{animationData1}}" style="opacity: 0;" hidden='{{isHidden}}' bindtap="hiddenModel">
+	<view class="content-box" id="popup" animation="{{animationData2}}" style='transform: translateY({{height}}rpx); height: {{height}}rpx;' catchtap='return'>
+		<image class="close-btn" src="../../image/popup-close.png" catchtap="hiddenModel"></image>
+		<slot></slot>
+	</view>
+</view>
